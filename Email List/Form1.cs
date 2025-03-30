@@ -72,7 +72,7 @@ namespace Email_List
             }
         }
 
-        // Simpan data ke MySQL
+        // Simpan data ke MySQL (Database)
         private void btnSimpan_Click(object sender, EventArgs e)
         {
             using (MySqlConnection conn = new MySqlConnection(connString))
