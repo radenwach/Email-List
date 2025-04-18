@@ -14,3 +14,18 @@ Teknologi yang Digunakan
 - MySQL Database
 - MySQL Connector for .NET
 - DataGridView untuk menampilkan data
+
+Instalasi & Penggunaan
+1. Clone Repository
+2. Setup Database
+   - Buat database MySQL baru dengan nama email_db.
+   - Jalankan skrip SQL berikut untuk membuat tabel:
+        CREATE DATABASE email_db;
+        USE email_db;
+        CREATE TABLE emails (
+            id INT AUTO_INCREMENT PRIMARY KEY,
+            nama VARCHAR(255) NOT NULL,
+            email VARCHAR(255) NOT NULL
+        );
+ 3. Jalankan Aplikasi
+    - Buka project di Visual Studio
